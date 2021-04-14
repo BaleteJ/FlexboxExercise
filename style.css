@@ -5,8 +5,8 @@ body
 
 .sec
 {
-    border: 1px solid black;
-    padding: 20px 70px 0px 70px;
+    
+    padding: 0px 70px 0px 70px;
 }
 
 .S1
@@ -65,8 +65,9 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 50%;
+    
     padding-bottom: 20px;
+    
 }
 
 .sec2-article
@@ -98,3 +99,16 @@ body
 
 /* =================================== */
 
+.S3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c3c3c3;
+}
+
+.navLink
+{
+    margin: 10px;
+    align-self: center;
+}
